@@ -1,18 +1,20 @@
+$flex: flex;
+$center: center;
 body.has-bg {
   background-color: #f8f9fa;
   font-family: Arial, sans-serif;
 }
 
 .header {
-  display: flex;
-  align-items: center;
+  display: $flex;
+  align-items: $center;
   padding: 20px 0;
   border-bottom: 1px solid #dee2e6;
 }
 
 .profile {
-  display: flex;
-  align-items: center;
+  display: $flex;
+  align-items: $center;
   gap: 20px;
 }
 
@@ -66,12 +68,10 @@ main .card {
 }
 
 footer.footer {
-  text-align: center;
+  text-align: $center;
   padding: 15px 0;
   margin-top: 40px;
   border-top: 1px solid #dee2e6;
   color: #6c757d;
   font-size: 0.9rem;
 }
-
-/*# sourceMappingURL=style.css.map */
