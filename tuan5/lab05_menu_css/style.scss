@@ -1,0 +1,45 @@
+$block: block;
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.menu-1 {
+    background-color: aqua;
+    display: inline-block;
+}
+.menu-1 ul {
+    display: flex;
+}
+.menu-1 ul li a {
+    display: $block;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.menu-1 ul li a:hover {
+    color: #fff;
+    background-color: coral;
+}
+.menu-2 {
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    width: 200px;
+}
+.menu-2 li {
+    border-bottom: 1px solid #fff;
+}
+.menu-2 li a {
+    padding: 10px;
+    background-color: cornflowerblue;
+    display: $block;
+}
+.menu-2 li a:hover {
+    font-style: italic;
+    filter: brightness(130%);
+}
