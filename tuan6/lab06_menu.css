@@ -1,0 +1,47 @@
+/* Menu Ngang */
+.horizontal-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+    width: 100%;
+}
+
+.horizontal-menu li {
+    margin: 0;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.horizontal-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.horizontal-menu li svg {
+    text-decoration: none;
+    color: white;
+}
+
+.horizontal-menu li:hover {
+    background-color: #7dccff
+}
+
+.horizontal-menu li a:hover {
+    color: black;
+}
+
+@media screen and (max-width:600px) {
+    .horizontal-menu {
+        flex-direction: column;
+    }
+
+    .horizontal-menu li:hover {
+        background-color: #7dccff
+    }
+
+    .horizontal-menu li a:hover {
+        color: black;
+    }
+}
