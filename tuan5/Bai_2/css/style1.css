@@ -1,6 +1,6 @@
 html,
 body {
-	font-family: "Bungee Spice", sans-serif;
+	font-family: "Cairo", sans-serif;
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
@@ -15,7 +15,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Bungee Spice", sans-serif;
+	font-family: "Cairo", sans-serif;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h6 {
 
 p {
 	font-size: 16px;
-	font-family: "Bungee Spice", sans-serif;
+	font-family: "Cairo", sans-serif;
 	color: #6f6f6f;
 	font-weight: 400;
 	line-height: 26px;
