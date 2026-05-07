@@ -1,0 +1,33 @@
+*{
+    font-size: 12pt;
+}
+ul{
+    list-style: none;
+    background-color: black;
+    color: white;
+    width: 1800px;
+    padding: 5px;
+}
+li{
+    display: inline;
+    padding: 10px;
+    line-height: 40px;
+}
+li:hover{
+    background-color: aquamarine;
+    color: black;
+    padding: 5px;
+}
+@media only screen and (max-width:600px){
+    ul{
+        list-style: none;
+        background-color: black;
+        color: white;
+        width: 1800px;
+    }
+    li{
+        display: block;
+        padding: 10px;
+        line-height: 40px;
+    }
+}
