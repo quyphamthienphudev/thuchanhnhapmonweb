@@ -1,6 +1,9 @@
 /*---------------------
   Footer
 -----------------------*/
+$whitecolor: white;
+$normalcolor: black;
+$primarycolor: orange;
 .footer {
   background: #F3F6FA;
   padding-top: 70px;
@@ -14,7 +17,7 @@
 
     li {
       font-size: 16px;
-      color: $normal-color;
+      color: $normalcolor;
       line-height: 36px;
       list-style: none;
     }
@@ -34,7 +37,7 @@
   overflow: hidden;
 
   h6 {
-    color: $normal-color;
+    color: $normalcolor;
     font-weight: 700;
     margin-bottom: 10px;
   }
@@ -47,7 +50,7 @@
       list-style: none;
 
       a {
-        color: $normal-color;
+        color: $normalcolor;
         font-size: 14px;
         line-height: 32px;
       }
@@ -56,7 +59,7 @@
 
   p {
     font-size: 14px;
-    color: $normal-color;
+    color: $normalcolor;
     margin-bottom: 30px;
   }
 
@@ -68,12 +71,12 @@
       width: 100%;
       font-size: 16px;
       padding-left: 20px;
-      color: $normal-color;
+      color: $normalcolor;
       height: 46px;
       border: 1px solid #ededed;
 
       &::placeholder {
-        color: $normal-color;
+        color: $normalcolor;
       }
     }
 
@@ -98,8 +101,7 @@
       border-radius: 50%;
       line-height: 38px;
       text-align: center;
-      background: $white-color;
-      @include transition(all, .3s);
+      background: $whitecolor;
       margin-right: 10px;
 
       &:last-child {
@@ -107,16 +109,16 @@
       }
 
       &:hover {
-        background: $primary-color;
-        color: $white-color;
-        border-color: $white-color;
+        background: $primarycolor;
+        color: $whitecolor;
+        border-color: $whitecolor;
       }
     }
   }
 }
 
 .footer__copyright {
-  border-top: 1px solid $border;
+  border-top: 1px solid;
   padding: 15px 0;
   overflow: hidden;
   margin-top: 20px;
@@ -124,7 +126,7 @@
 
 .footer__copyright__text {
   font-size: 14px;
-  color: $normal-color;
+  color: $normalcolor;
   float: left;
   line-height: 25px;
 }
