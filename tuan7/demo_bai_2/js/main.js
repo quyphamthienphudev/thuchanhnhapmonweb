@@ -83,14 +83,14 @@
 	Bổ sung hàm updateTotal()
 	--------------------- */
     function updateTotal(){
-        const priceValue = document.querySelector('.shoping__cart__price').textContent
-        const cartTotal = document.querySelector('.shoping__cart__total')
+        const priceValue = document.querySelector('.shoping__cart__price').textContent;
+        const cartTotal = document.querySelector('.shoping__cart__total');
         const price = parseInt(priceValue.replace('.', ''));
-        const quantity = document.getElementById('quantity').value
+        const quantity = document.getElementById('quantity').value;
         let total = price * quantity;
         cartTotal.textContent = new Intl.NumberFormat('vi-VN',{
             style: 'currency',
             currency: 'VND'
-        }).format(total)
+        }).format(total);
     }
 })(jQuery);
