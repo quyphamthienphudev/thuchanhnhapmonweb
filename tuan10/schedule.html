@@ -2,49 +2,42 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Match Schedule</title>
   <!-- bootstrap -->
   <link rel="stylesheet" href="./bs5/css/bootstrap.min.css" />
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css" />
-  <!-- icon -->
-  <link rel="shortcut icon" href="./image/Football_Pallo_valmiina-cropped.jpg" type="image/x-icon" />
 </head>
 
 <body>
   <!-- header -->
-  <header class="border-bottom py-3">
-    <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
+  <header class="border-bottom">
+    <nav class="navbar navbar-expand-lg bg-white py-3">
+      <div class="container">
         <!-- Logo -->
-        <div class="logo">
-          <h2 class="fw-bold">
-            <a href="index.html">The Sporting News</a>
-          </h2>
-        </div>
-
+        <a class="navbar-brand fw-bold logo-text" href="index.html">The Sporting News</a>
+        <!-- Button menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"><span
+            class="navbar-toggler-icon"></span></button>
         <!-- Menu -->
-        <nav>
-          <ul class="d-flex list-unstyled gap-4 m-0">
-            <li>
-              <a href="https://www.figma.com/design/lBlfThOknv0fhgdhToAs9V/Website-th%E1%BB%83-thao-b%C3%B3ng-%C4%91%C3%A1?node-id=0-1&t=AkJZ94nFtpWOifdv-1"
-                style="font-weight: bolder; color: red" target="_blank">LINK FIGMA [XEM TẠI ĐÂY]</a>
-            </li>
-            <li><a href="nfl.html">NFL</a></li>
-            <li><a href="nba.html">NBA</a></li>
-            <li><a href="mlb.html">MLB</a></li>
-            <li><a href="nhl.html">NHL</a></li>
-            <li><a href="soccer.html">SOCCER</a></li>
-            <li><a href="boxing.html">BOXING</a></li>
-            <li><a href="schedule.html">SCHEDULE</a></li>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link text-danger fw-bold"
+                href="https://www.figma.com/design/lBlfThOknv0fhgdhToAs9V/Website-th%E1%BB%83-thao-b%C3%B3ng-%C4%91%C3%A1?node-id=0-1&t=AkJZ94nFtpWOifdv-1"
+                target="_blank">LINK FIGMA [XEM TẠI ĐÂY]</a></li>
+            <li class="nav-item"><a class="nav-link" href="nfl.html">NFL</a></li>
+            <li class="nav-item"><a class="nav-link" href="nba.html">NBA</a></li>
+            <li class="nav-item"><a class="nav-link" href="mlb.html">MLB</a></li>
+            <li class="nav-item"><a class="nav-link" href="nhl.html">NHL</a></li>
+            <li class="nav-item"><a class="nav-link" href="soccer.html">SOCCER</a></li>
+            <li class="nav-item"><a class="nav-link" href="boxing.html">BOXING</a></li>
+            <li class="nav-item"><a class="nav-link" href="schedule.html">SCHEDULE</a></li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </div>
+    </nav>
   </header>
-
   <!-- Thanh ti so tran dau -->
   <section class="score-board py-3 bg-white">
     <div class="container">

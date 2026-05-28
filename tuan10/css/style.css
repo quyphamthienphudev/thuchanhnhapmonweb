@@ -73,3 +73,43 @@ header {
 .subscribe-box button {
     border-radius: 0;
 }
+
+/* header */
+
+.logo-text {
+    font-size: 32px;
+    font-weight: 800;
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* button menu responsive */
+
+.navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+}
+
+/* responsive */
+
+@media (max-width: 600px) {
+
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+}
