@@ -22,7 +22,7 @@ document
 
         // Gửi email
         emailjs.send(
-            "service_ifkakf3",
+            "service_qnupovi",
             "template_v63iscl",
             templateParams
         ).then(
